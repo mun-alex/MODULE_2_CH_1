@@ -18,7 +18,8 @@ public class MainServlet extends HttpServlet {
 //        response.setContentType("text/html");
 //        PrintWriter out = response.getWriter();
 //        out.print("<h2>Hello Islam</h2>");
-        request.getRequestDispatcher("/index.html").forward(request, response);
+        request.setAttribute("students", DBManager.getAllStudents());//кладем в атрибут массив студентов
+        request.getRequestDispatcher("/index.jsp").forward(request, response);
     }
 
     @Override

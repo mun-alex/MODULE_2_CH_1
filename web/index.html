@@ -7,28 +7,59 @@
 </head>
 <body>
 <div class="container">
-    <div class="row">
-        <div class="col-lg-4 m-auto mt-3">
-            <form action="/main" method="post">
-                <div class="mb-3">
-                    <label for="studentName" class="form-label">Student Name</label>
-                    <input type="text" name="studentName" class="form-control" id="studentName">
-                </div>
-                <div class="mb-3">
-                    <label for="studentSurname" class="form-label">Student Surname</label>
-                    <input type="text" name="studentSurname" class="form-control" id="studentSurname">
-                </div>
-                <div class="mb-3">
-                    <select name="studentCity" id="">
-                        <option value="almaty">Almaty</option>
-                        <option value="astana">Astana</option>
-                        <option value="karaganda">Karaganda</option>
-                    </select>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-    </div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Surname</th>
+            <th scope="col">City</th>
+        </tr>
+        </thead>
+        <tbody>
+
+
+
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+        </tr>
+        </tbody>
+    </table>
+<!--    <div class="row">-->
+<!--        <div class="col-lg-4 m-auto mt-3">-->
+<!--            <form action="/main" method="post">-->
+<!--                <div class="mb-3">-->
+<!--                    <label for="studentName" class="form-label">Student Name</label>-->
+<!--                    <input type="text" name="studentName" class="form-control" id="studentName">-->
+<!--                </div>-->
+<!--                <div class="mb-3">-->
+<!--                    <label for="studentSurname" class="form-label">Student Surname</label>-->
+<!--                    <input type="text" name="studentSurname" class="form-control" id="studentSurname">-->
+<!--                </div>-->
+<!--                <div class="mb-3">-->
+<!--                    <select name="studentCity" id="">-->
+<!--                        <option value="almaty">Almaty</option>-->
+<!--                        <option value="astana">Astana</option>-->
+<!--                        <option value="karaganda">Karaganda</option>-->
+<!--                    </select>-->
+<!--                </div>-->
+<!--                <button type="submit" class="btn btn-primary">Submit</button>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </div>-->
 </div>
 </body>
 </html>
